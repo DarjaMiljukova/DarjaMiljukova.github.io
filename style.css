@@ -27,7 +27,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 10px;
 }
 
@@ -91,9 +91,7 @@ a:hover {
 }
 
 footer {
-    height: 30px;
     text-align: center;
-    padding: 10px ;
     background: #0073e6;
     color: white;
     position: fixed;
