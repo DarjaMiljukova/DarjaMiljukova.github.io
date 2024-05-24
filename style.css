@@ -2,8 +2,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #ece9e6, #ffffff);
-    color: #333;
 }
 
 header {
@@ -34,7 +32,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #0073e6;
     text-decoration: none;
     font-weight: bold;
 }
@@ -93,7 +91,7 @@ a:hover {
 }
 
 footer {
-    height: 20px;
+    height: 30px;
     text-align: center;
     padding: 10px 0;
     background: #0073e6;
@@ -101,4 +99,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+img{
+    width: 800px;
 }
