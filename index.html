@@ -4,19 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minu leht</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
     <h1>Tere tulemast minu lehele</h1>
+    <nav>
+        <ul>
+            <li><a href="#profile">Minust</a></li>
+            <li><a href="#languages">Keelid</a></li>
+            <li><a href="#technologies">IT tehnoloogiad</a></li>
+            <li><a href="#skills">Minu oskused</a></li>
+            <li><a href="#project">Oma parimale projekt</a></li>
+            <li><a href="#mvp">MVP</a></li>
+        </ul>
+    </nav>
 </header>
 <main>
-    <section class="profile">
+    <section id="img" class="img">
+        <img src="studygirl.jpeg">
+    </section>
+    <section id="profile" class="profile">
         <h2>Minust</h2>
         <p>Eesnimi: Darja</p>
         <p>Perekonnanimi: Miljukova</p>
     </section>
-    <section class="languages">
+    <section id="languages" class="languages">
         <h2>Keelid</h2>
         <ul>
             <li>Eesti keel B2</li>
@@ -24,10 +37,10 @@
             <li>Inglise keel B1</li>
         </ul>
     </section>
-    <section class="technologies">
+    <section id="technologies" class="technologies">
         <h2>IT tehnoloogiad</h2>
-        <ul>
-            <h2>Programmeerimiskeeled</h2>
+        <div class="tech-section">
+            <h3>Programmeerimiskeeled</h3>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -36,12 +49,16 @@
                 <li>C#</li>
                 <li>PHP</li>
             </ul>
-            <h2>Andmebaasi</h2>
+        </div>
+        <div class="tech-section">
+            <h3>Andmebaasi</h3>
             <ul>
                 <li>MySQL</li>
                 <li>XAMPP</li>
             </ul>
-            <h2>Microsoft Office</h2>
+        </div>
+        <div class="tech-section">
+            <h3>Microsoft Office</h3>
             <ul>
                 <li>Access</li>
                 <li>Excel</li>
@@ -52,14 +69,16 @@
                 <li>Publisher</li>
                 <li>Forms</li>
             </ul>
-            <h2>Adobe</h2>
+        </div>
+        <div class="tech-section">
+            <h3>Adobe</h3>
             <ul>
                 <li>Photoshop</li>
                 <li>Lightroom</li>
             </ul>
-        </ul>
+        </div>
     </section>
-    <section class="skills">
+    <section id="skills" class="skills">
         <h2>Minu oskused</h2>
         <ul>
             <li>Veebiarendus</li>
@@ -69,11 +88,11 @@
             <li>Töö kontori programmidega</li>
         </ul>
     </section>
-    <section class="project">
+    <section id="project" class="project">
         <h2>Oma parimale projekt</h2>
         <p>Vaata minu <a href="https://darjamiljukova22.thkit.ee/jsleht/content/andmebaas/proekt/registr.php" target="_blank">projekti siin</a>.</p>
     </section>
-    <section>
+    <section id="mvp" class="mvp">
         <h2>MVP</h2>
         <p>Oma IT-projektides saan ma kasutada MVP-põhimõtet, et minimeerida aega ja ressursse algses arendusetapis, pakkudes põhifunktsionaalsusega toodet.
             See võimaldab mul saada kiiresti tagasisidet kasutajatelt ja teha vajalikke parandusi reaalsete andmete põhjal.
@@ -81,7 +100,7 @@
     </section>
 </main>
 <footer>
-    <p>&copy; Darja Miljukova</p>
+    <p>&copy;2024 Darja Miljukova</p>
 </footer>
 </body>
 </html>
